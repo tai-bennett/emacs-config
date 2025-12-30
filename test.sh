@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 TEST_HOME=$(mktemp -d)
-export HOME=$TEST_HOME
+HOME=$TEST_HOME ./install.sh
 
 ./install.sh
 

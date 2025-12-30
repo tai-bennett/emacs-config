@@ -1,1 +1,2 @@
 #+TITLE: Emacs Configuration
+DO NOT TOUCH ANY .el FILES! ONLY EDIT THE .org FILES!

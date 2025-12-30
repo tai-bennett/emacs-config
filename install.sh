@@ -11,9 +11,9 @@ emacs --batch \
       -Q \
       -l ~/.emacs.d-myconfig/bootstrap.el
 
-emacs --batch \
-      -Q \
-      -l ~/.emacs.d-myconfig/init.el
+#emacs --batch \
+#      -Q \
+#      -l ~/.emacs.d-myconfig/init.el
 
 echo "Emacs config tangled successfully"
 

@@ -5,4 +5,4 @@ export HOME=$TEST_HOME
 
 ./install.sh
 
-emacs -nw --init-directory "$HOME/.emacs.d-myconfig"
+emacs -nw -Q -l ~/.emacs.d-myconfig/init.el

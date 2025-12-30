@@ -9,9 +9,11 @@ git clone https://github.com/tai-bennett/emacs-config.git "$EMACS_DIR"
 
 emacs --batch \
       -Q \
-      -l ~/.emacs.d-myconfig/init.el \
-      --eval "(require 'org)" \
-      --eval "(org-babel-tangle-file \"${EMACS_DIR}/config.org\")"
+      -l ~/.emacs.d-myconfig/bootstrap.el
+
+emacs --batch \
+      -Q \
+      -l ~/.emacs.d-myconfig/init.el
 
 echo "Emacs config tangled successfully"
 

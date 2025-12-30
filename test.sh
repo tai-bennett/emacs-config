@@ -5,4 +5,4 @@ HOME=$TEST_HOME ./install.sh
 
 ./install.sh
 
-emacs -nw -Q -l ~/.emacs.d-myconfig/init.el
+emacs -nw -Q -l $TEST_HOME/.emacs.d-myconfig/init.el
